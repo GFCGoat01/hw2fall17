@@ -44,5 +44,3 @@ def rps_tournament_winner(tournament)
   end
   return rps_game_winner([rps_tournament_winner(tournament[0]),rps_tournament_winner(tournament[1])])
 end
-
-#feel free to add your own helper functions as needed

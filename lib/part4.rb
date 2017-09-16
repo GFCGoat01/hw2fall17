@@ -27,14 +27,3 @@ class Class
 
   end
 end
-
-class Foo
-  attr_accessor_with_history :foo
-  attr_accessor_with_history :bar
-end
-f = Foo.new
-f.bar = 1
-f.bar = 2
-f = Foo.new
-f.bar = 4
-f.bar_history
